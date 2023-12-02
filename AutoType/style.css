@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.textInput {
+  margin-top: 10%;
+  margin-left: 40%;
+}
+.container {
+  font-size: 70px;
+  margin-top: 15%;
+  margin-left: 20%;
+  color: blueviolet;
+}
+button {
+  height: 40px;
+  width: 70px;
+  border: 1px solid orange;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: white;
+}
+input {
+  padding: 5px;
+  border-radius: 10px;
+}
