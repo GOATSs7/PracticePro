@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: bisque;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#span {
+  font-size: large;
+}
+#password {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
