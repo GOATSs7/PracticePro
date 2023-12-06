@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mx-2 {
+  padding: 5px;
+  border-radius: 5px;
+}
+#para {
+  margin-top: 50px;
+  background-color: red;
+  color: aliceblue;
+}
