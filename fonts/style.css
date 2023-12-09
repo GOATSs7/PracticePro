@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@100;200;300;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+
+  /* background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(51, 51, 205, 1) 47%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white; */
+}
+
+.container {
+  width: 500px;
+  height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid red;
+  border-radius: 15px;
+  /* border-radius: 15px 10px 0 5px; */
+}
+h2 {
+  font-size: 5rem;
+  font-family: "Kalnia", serif;
+  font-weight: 800;
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  text-shadow: 5px 3px 1px rgba(80, 80, 255, 0.3);
+}
+p {
+  font-size: 2rem;
+  font-family: "Kalnia", serif;
+  font-weight: 300;
+}
